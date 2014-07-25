@@ -13,7 +13,7 @@ get '/home' do
 end
 
 
-post '/signin' do
+post '/sign_in' do
   response = SMS::validate_user(session)
   if response[:success?]
     errors["please log out current session before logging back in"]
