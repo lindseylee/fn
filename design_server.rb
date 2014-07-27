@@ -1,5 +1,5 @@
 require 'sinatra'
-require 'sinatra/json'
+# require 'sinatra/json'
 require 'pry'
 
 # require_relative 'lib/sms.rb'
@@ -30,6 +30,14 @@ end
 post '/design/home' do
   puts params
   erb :index
+end
+
+get '/design/question' do
+  erb :question
+end
+
+post '/design/question' do
+  erb :question
 end
 
 # post '/sign_in' do

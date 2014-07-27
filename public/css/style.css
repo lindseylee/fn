@@ -1843,7 +1843,7 @@ select {
   list-style: none;
   border-style: solid;
   border-width: 1px;
-  background-color: #f4f4f4;
+  background-color: #4791FF;
   border-color: gainsboro;
   border-radius: 3px; }
   /* line 122, ../scss/foundation/components/_breadcrumbs.scss */
@@ -1915,13 +1915,13 @@ button, .button {
   padding-bottom: 1.0625rem;
   padding-left: 2rem;
   font-size: 1rem;
-  background-color: #008cba;
+  background-color: #222222;
   border-color: #007095;
   color: white;
   transition: background-color 300ms ease-out; }
   /* line 133, ../scss/foundation/components/_buttons.scss */
   button:hover, button:focus, .button:hover, .button:focus {
-    background-color: #007095; }
+    background-color: #666; }
   /* line 144, ../scss/foundation/components/_buttons.scss */
   button:hover, button:focus, .button:hover, .button:focus {
     color: white; }
@@ -2450,7 +2450,7 @@ button, .button {
   width: 100%;
   max-height: none;
   height: auto;
-  background: white;
+  background: #222222;
   border: solid 1px #cccccc;
   font-size: 0.875rem;
   z-index: 99;
@@ -5579,45 +5579,45 @@ meta.foundation-mq-topbar {
         font-size: 0.8125rem;
         padding-right: 15px;
         padding-left: 15px;
-        background-color: #008cba;
+        background-color: #222222;
         border-color: #007095;
         color: white; }
         /* line 133, ../scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > a.button:hover, .top-bar-section ul li > a.button:focus {
-          background-color: #007095; }
+          background-color: #222222; }
         /* line 144, ../scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > a.button:hover, .top-bar-section ul li > a.button:focus {
           color: white; }
       /* line 320, ../scss/foundation/components/_top-bar.scss */
       .top-bar-section ul li > a.button.secondary {
-        background-color: #e7e7e7;
+        background-color: #222222;
         border-color: #b9b9b9;
         color: #333333; }
         /* line 133, ../scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > a.button.secondary:hover, .top-bar-section ul li > a.button.secondary:focus {
-          background-color: #b9b9b9; }
+          background-color: #222222; }
         /* line 139, ../scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > a.button.secondary:hover, .top-bar-section ul li > a.button.secondary:focus {
           color: #333333; }
       /* line 321, ../scss/foundation/components/_top-bar.scss */
       .top-bar-section ul li > a.button.success {
-        background-color: #43ac6a;
+        background-color: #222222;
         border-color: #368a55;
         color: white; }
         /* line 133, ../scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > a.button.success:hover, .top-bar-section ul li > a.button.success:focus {
-          background-color: #368a55; }
+          background-color: #222222; }
         /* line 144, ../scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > a.button.success:hover, .top-bar-section ul li > a.button.success:focus {
           color: white; }
       /* line 322, ../scss/foundation/components/_top-bar.scss */
       .top-bar-section ul li > a.button.alert {
-        background-color: #f04124;
+        background-color: #222222;
         border-color: #cf2a0e;
         color: white; }
         /* line 133, ../scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > a.button.alert:hover, .top-bar-section ul li > a.button.alert:focus {
-          background-color: #cf2a0e; }
+          background-color: #222222; }
         /* line 144, ../scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > a.button.alert:hover, .top-bar-section ul li > a.button.alert:focus {
           color: white; }
@@ -5626,23 +5626,23 @@ meta.foundation-mq-topbar {
       font-size: 0.8125rem;
       padding-right: 15px;
       padding-left: 15px;
-      background-color: #008cba;
+      background-color: #222222;
       border-color: #007095;
       color: white; }
       /* line 133, ../scss/foundation/components/_buttons.scss */
       .top-bar-section ul li > button:hover, .top-bar-section ul li > button:focus {
-        background-color: #007095; }
+        background-color: #222222; }
       /* line 144, ../scss/foundation/components/_buttons.scss */
       .top-bar-section ul li > button:hover, .top-bar-section ul li > button:focus {
         color: white; }
       /* line 331, ../scss/foundation/components/_top-bar.scss */
       .top-bar-section ul li > button.secondary {
-        background-color: #e7e7e7;
+        background-color: #222222;
         border-color: #b9b9b9;
         color: #333333; }
         /* line 133, ../scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > button.secondary:hover, .top-bar-section ul li > button.secondary:focus {
-          background-color: #b9b9b9; }
+          background-color: #222222; }
         /* line 139, ../scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > button.secondary:hover, .top-bar-section ul li > button.secondary:focus {
           color: #333333; }
@@ -6673,7 +6673,7 @@ th.hide-for-touch {
     display: table-cell !important; } }
 /* line 1, ../scss/custom.scss */
 header {
-  background: black;
+  background: #4791FF;
   color: white;
   padding-top: 1em; }
 
@@ -6716,7 +6716,7 @@ header .logo {
 .footer {
   width: 100%;
   height: 4em;
-  background: black;
+  background: #4791FF;
   margin: 0;
   position: fixed;
   bottom: 0;
@@ -6743,7 +6743,7 @@ header .logo {
 
 /* line 72, ../scss/custom.scss */
 .button.tiny {
-  background-color: #f6c705;
+  background-color: #222222;
   padding-bottom: 9px;
   padding-top: 11px;
   border-radius: 3px; }
@@ -6758,10 +6758,34 @@ header .logo {
 
 /* line 87, ../scss/custom.scss */
 .small.button {
-  background-color: #f6c705;
+  background-color: #222222;
   border-radius: 3px; }
+
+.small.button:hover {
+  background-color: #666; }
 
 /* line 92, ../scss/custom.scss */
 #quality-pool {
   background-color: #f6c705;
   border-radius: 3px; }
+
+#no {
+  background-color: #4791FF
+}
+
+#no.hover {
+  background-color: red
+}
+
+#yes {
+  background-color: #19A347 
+}
+
+#questionpage {
+  text-align: center;
+}
+
+#footerpadding {
+  padding-bottom: 25px
+}
+

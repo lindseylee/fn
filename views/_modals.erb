@@ -1,13 +1,16 @@
 <div id="myModal" class="reveal-modal" data-reveal>
   <div class="panel">
+  <h3><strong> Sign Up to Get Started </strong></h3>
     <form class="sign-up" method="post" action="/design/sign_in">
       <input type="text" placeholder="first name" name="first_name" />
       <input type="text" placeholder="last name" name="last_name" />
-      <input type="text" placeholder="sex" name="sex" />
-      <input type="text" placeholder="birthday" name="birthday" />
+        
+      <input type="radio" name="status" value="teacher">Teacher  
+      <input type="radio" name="status" value="student">Student
+      
       <input type="text" placeholder="username" name="username" />
-      <input type="text" placeholder="password" name="password" />
-      <input type="text" placeholder="verify password" name="password2" />
+      <input type="password" placeholder="password" name="password" />
+      <input type="password" placeholder="verify password" name="password2" />
       <input type="text" placeholder="email" name="email" />
       <input type="submit" id="sign-up" value="sign up" class="button tiny" />
     </form>

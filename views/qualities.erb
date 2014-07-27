@@ -3,6 +3,7 @@
 
 <br>
 <br>
+<div class="form-group">
 <div class="row">
   <div class="large-6 large-centered columns">
     <ul id="selectedQualities" class="button-group [radius round]">
@@ -14,6 +15,12 @@
 <div class="row chosen-qualities">
   <%# the chosen quality buttons will go here %>
 </div>
+
+<label for="poll_option">Poll Option:</label>
+    <% ['option1','option2','option3','option4','option5'].each do |poll_option| %>
+      <%= radio_button_tag 'poll_option', poll_option,@poll_option == poll_option %>
+      <%= poll_option %>
+    <% end %>
 
 <hr />
 
@@ -36,7 +43,14 @@
     </div>
   </div>
 <% end %>
+</div>
 
 
 
+ <div class="form-group">
+  <div class="col-lg-10">
+  <p style="font-size: 16px">
+  
+</div>
+</div>
 

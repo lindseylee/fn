@@ -12,3 +12,10 @@
 
   window.bl = new BusinessLogic();
 })();
+
+$(document).foundation({
+  dropdown: {
+    // specify the class used for active dropdowns
+    active_class: 'open'
+  }
+});
